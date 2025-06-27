@@ -1,0 +1,139 @@
+.cart-page {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.cart-img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-right: 20px;
+}
+
+.cart-info {
+  flex: 1;
+}
+
+.cart-buttons {
+  margin-top: 10px;
+}
+
+.cart-buttons button {
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #222;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.cart-buttons button:hover {
+  background-color: #444;
+}
+
+.buy-btn {
+  background-color: green;
+}
+
+.buy-btn:hover {
+  background-color: darkgreen;
+}
+
+.back-btn {
+  background-color: #f04b4c;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.back-btn:hover {
+  background-color: #c0392b;
+}
+
+.cart-container {
+  padding: 20px;
+}
+
+.cart-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-items {
+  flex: 1;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #eee;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-right: 15px;
+}
+
+.cart-item-details h4 {
+  margin: 0;
+}
+
+.cart-item-details button {
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+.back-button {
+  background-color: #d10033;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+.remove-btn {
+  background-color: #555;
+  color: #fff;
+  border: none;
+}
+
+.place-order-btn {
+  background-color: #2e77d0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.price-summary {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-top: 20px;
+}
