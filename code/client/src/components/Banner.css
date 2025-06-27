@@ -1,0 +1,51 @@
+.banner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111;
+  padding: 10px;
+}
+
+.banner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 10px 0;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.banner:hover {
+  transform: scale(1.02);
+}
+
+.banner {
+  width: 100%;              /* Let it fill its container */
+  max-width: 100vw;         /* Max out at viewport width */
+  height: 350px;            /* Or increase to 400px if needed */
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+}
+
+
+
+.banner-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.banner-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+  display: block;
+}
